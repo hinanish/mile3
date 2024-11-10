@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resume Builder</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Dynamic Resume Builder</h1>
+      <form id="resumeForm">
+        <label class="inputname" id="upload" for="picture"
+         ><strong>Upload Picture:</strong></label
+        >
+        <input
+          class="forpic"
+          type="file"
+          id="picture"
+          name="picture"
+          accept="image/* required"
+        /><br /><br />
+        <label for="name">Full Name &nbsp; : &nbsp;</label>
+        <input
+          type="text"
+          id="name"
+          placeholder="Enter your name"
+          required
+        />
+
+        <label for="email">Email:</label>
+        <input
+          type="email"
+          id="email"
+          placeholder="Enter your email"
+          required
+        />
+
+        <label for="phone">Phone Number:</label>
+        <input
+          type="phone"
+          id="phone"
+          placeholder="Enter mobile number"
+          required
+        />
+
+        <label for="address">Address:</label>
+        <input
+          type="text"
+          id="address"
+          placeholder="Enter your address"
+          required
+        />
+
+        <label for="education">Education:</label>
+        <textarea
+          id="education"
+          placeholder="Educational background"
+          required
+        ></textarea>
+
+        <label for="experience">Experience:</label>
+        <textarea
+          id="experience"
+          placeholder="Enter  work experience"
+          required
+        ></textarea>
+
+        <label for="skills">Skills:</label>
+        <textarea
+          id="skills"
+          placeholder="Enter your skills"
+          required
+        ></textarea>
+
+        <button type="button" onclick="generateResume()">Generate Resume</button>
+      </form>
+
+      <div id="resume" class="resume">
+        
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>

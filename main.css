@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: #a293a2;
+  }
+  
+  .container {
+    max-width: 700px;
+    margin: 50px auto;
+    padding: 18px;
+    background-color: rgb(253, 247, 249);
+    background-position: center;
+    background-size: fixed;
+    border-radius: 6px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: rgb(33, 151, 160);
+    margin-bottom: 20px;
+    font-weight: 900;
+  }
+  
+  
+  form {
+    display: flex;
+    flex-direction: column;
+
+  }
+  
+  label {
+    margin-top: 10px;
+    font-weight: bolder;
+  }
+  
+  input, textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  textarea {
+    resize: none;
+  }
+  
+  button {
+    padding: 10px;
+    background-color:plum;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    margin-top: 15px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  button:hover {
+    background-color: #054203;
+  }
+  
+  .resume {
+    margin-top: 30px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fafafa;
+  }
+  
+  .resume h2 {
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .resume p {
+    margin-bottom: 10px;
+    line-height: 1.5;
+  }
+  
+
+  .forpic{
+    background: rgb(197, 197, 238);
+  
+  }
+  
+  
